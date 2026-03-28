@@ -108,7 +108,7 @@ export class VidRockProvider extends BaseProvider {
                                   referrer: this.BASE_URL,
                                   origin: this.BASE_URL.replace('net/', 'net')
                               }
-                            : { ...this.HEADERS, Referer: this.BASE_URL}
+                            : { ...this.HEADERS, Referer: this.BASE_URL }
                     );
                 }
 

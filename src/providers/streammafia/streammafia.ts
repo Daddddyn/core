@@ -242,7 +242,7 @@ export class StreamMafiaProvider extends BaseProvider {
         if (v.includes('360')) return '360p';
         if (v.includes('240')) return '240p';
 
-        return value.toLowerCase()+'p';
+        return value.toLowerCase() + 'p';
     }
 
     private emptyResult(message: string): ProviderResult {
